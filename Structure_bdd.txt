@@ -1,0 +1,12 @@
+1. Socle du système
+2. Comptabilité
+3. Projets
+4. Bailleurs
+5. Budget
+6. Achats
+7. Contrats / Engagements
+8. Paiements / Trésorerie
+9. Immobilisations
+10. Missions
+11. Reporting
+12. Audit

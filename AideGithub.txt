@@ -1,0 +1,11 @@
+# Vérifier ce qui a changé
+git status
+
+# Ajouter les modifications
+git add .
+
+# Créer un commit
+git commit -m "Description de ce que j'ai changé"
+
+# Envoyer sur GitHub
+git push

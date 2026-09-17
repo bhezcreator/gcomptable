@@ -1,0 +1,254 @@
+1. Structure des composants
+app/Livewire/
+│
+├── Administration/
+├── Referentials/
+├── Projects/
+├── Funders/
+├── Budget/
+├── Accounting/
+├── Procurement/
+├── Contracts/
+├── Treasury/
+├── Assets/
+├── HR/
+├── Reporting/
+└── Audit/
+
+2. Administration
+Administration/
+├── Dashboard
+├── Users/
+│   ├── Index
+│   ├── Create
+│   └── Edit
+├── Roles/
+│   ├── Index
+│   └── Form
+└── Permissions/
+    └── Index
+
+3. Référentiels
+Referentials/
+├── Organizations/
+├── Sites/
+├── Currencies/
+├── FiscalYears/
+├── FiscalPeriods/
+├── AccountingPlans/
+├── Accounts/
+└── Journals/
+
+4. Projets
+Projects/
+├── Programs/
+│   ├── Index
+│   ├── Create
+│   └── Edit
+│
+├── Projects/
+│   ├── Index
+│   ├── Create
+│   ├── Edit
+│   └── Show
+│
+├── Components/
+└── Activities/
+
+5. Bailleurs
+Funders/
+├── Index
+├── Create
+├── Edit
+└── Show
+
+6. Budget
+Budget/
+├── Index
+├── Create
+├── Edit
+├── Show
+├── Lines/
+└── Allocations/
+
+7. Comptabilité
+Accounting/
+├── Dashboard
+├── Entries/
+│   ├── Index
+│   ├── Create
+│   ├── Edit
+│   └── Show
+├── Journals/
+├── Accounts/
+└── Reports/
+
+8. Achats
+Procurement/
+├── Requests/
+├── Quotations/
+├── Orders/
+├── Receipts/
+└── SupplierInvoices/
+
+9. Contrats
+Contracts/
+├── Index
+├── Create
+├── Edit
+├── Show
+└── Amendments/
+
+10. Trésorerie
+Treasury/
+├── BankAccounts/
+├── CashAccounts/
+├── Payments/
+└── Reconciliations/
+
+11. Immobilisations
+HR/
+├── Employees/
+├── Missions/
+├── MissionAdvances/
+├── MissionExpenses/
+└── MissionSettlements/
+
+12. Missions
+HR/
+├── Employees/
+├── Missions/
+├── MissionAdvances/
+├── MissionExpenses/
+└── MissionSettlements/
+
+13. Reporting
+Reporting/
+├── FinancialStatements/
+├── BudgetReports/
+├── ProjectReports/
+└── FunderReports/
+
+14. Audit
+Audit/
+└── ActivityLogs/
+    └── Index
+
+Architecture d'une page Livewire
+Pour chaque écran CRUD :
+Index
+ ├── recherche
+ ├── filtres
+ ├── tableau
+ ├── pagination
+ └── actions
+
+Create
+ └── formulaire
+
+Edit
+ └── formulaire
+
+Show
+ └── détails + informations liées
+
+Navigation globale : 
+Dashboard
+│
+├── Administration
+├── Référentiels
+├── Projets
+├── Bailleurs
+├── Budget
+├── Comptabilité
+├── Achats
+├── Contrats
+├── Trésorerie
+├── Immobilisations
+├── Missions
+├── Reporting
+└── Audit
+
+
+Structure complète du menu :
+DASHBOARD
+│
+├── Administration
+│   ├── Utilisateurs
+│   ├── Rôles
+│   ├── Permissions
+│   └── Organisation
+│
+├── Référentiels
+│   ├── Sites
+│   ├── Devises
+│   ├── Années fiscales
+│   ├── Périodes comptables
+│   ├── Plans comptables
+│   ├── Comptes comptables
+│   └── Journaux
+│
+├── Projets
+│   ├── Programmes
+│   ├── Projets
+│   ├── Composants
+│   └── Activités
+│
+├── Bailleurs
+│   ├── Bailleurs
+│   ├── Conventions
+│   └── Catégories de financement
+│
+├── Budget
+│   ├── Budgets
+│   ├── Lignes budgétaires
+│   ├── Allocations budgétaires
+│   └── Suivi budgétaire
+│
+├── Comptabilité
+│   ├── Écritures comptables
+│   ├── Journaux
+│   ├── Grand livre
+│   ├── Balance
+│   ├── Comptabilité analytique
+│   └── Clôture
+│
+├── Achats
+│   ├── Demandes d'achat
+│   ├── Cotations
+│   ├── Commandes
+│   ├── Réceptions
+│   └── Factures fournisseurs
+│
+├── Contrats
+│   ├── Contrats / Marchés
+│   ├── Avenants
+│   └── Engagements
+│
+├── Trésorerie
+│   ├── Comptes bancaires
+│   ├── Caisses
+│   ├── Demandes de paiement
+│   ├── Paiements
+│   └── Rapprochements bancaires
+│
+├── Immobilisations
+│   ├── Catégories
+│   ├── Immobilisations
+│   └── Amortissements
+│
+├── Missions
+│   ├── Employés
+│   ├── Missions
+│   ├── Avances
+│   ├── Dépenses
+│   └── Règlements
+│
+├── Reporting
+│   ├── États financiers
+│   ├── Rapports budgétaires
+│   ├── Rapports projets
+│   └── Rapports bailleurs
+│
+└── Audit
+    └── Journal d'audit

@@ -1,0 +1,96 @@
+1. Socle du système :
+    1. Organisation : Nan
+    2. Années fiscales : fiscal_years
+    3. Périodes comptables : fiscal_periods
+    4. Devises : currencies
+    5. Sites : sites
+    6. Utilisateurs : users
+
+2. Plan comptable et comptabilité générale :
+    1. Plans comptables : accounting_plans
+    2. Comptes comptables : accounts
+    3. Journaux : journals
+    4. Écritures comptables : accounting_entries
+    5. Lignes d'écriture : accounting_entry_lines
+    6. Répartition analytique : accounting_allocations
+
+3. Projets, programmes, composants et activités
+    1. Programmes : programs
+    2. Projets : projects
+    3. Composants : project_components
+    4. Activités : activities
+
+4. Bailleurs, conventions et financement
+    1. Bailleurs : funders
+    2. Conventions de financement : funding_conventions
+    3. Catégories de financement : funding_categories
+    4. Relations avec le budget
+    5. Suivi financier
+
+5. Budget et suivi budgétaire
+    1. Budgets : budgets
+    2. Lignes budgétaires : budget_lines
+    3. Répartition par période : budget_allocations
+    4. Cycle du budget 
+    5. Suivi budgétaire
+    6. Lien avec les étapes précédentes
+
+6. Tiers, fournisseurs et processus d’achats
+    1. Tiers : third_parties
+    2. Demande d’achat : purchase_requests
+    2.1 Demande d’achat : purchase_request_lines
+    3. Demande de cotation : purchase_quotations
+    3.1 Demande de cotation : purchase_quotation_lines
+    4. Bon de commande : purchase_orders
+    4.1 Bon de commande : purchase_order_lines
+    5. Réception : goods_receipts
+    5.1 Réception : goods_receipt_lines
+    6. Facture fournisseur : supplier_invoices
+
+7. Contrats / Engagements
+    1. Contrats / marchés : contracts
+    2. Avenants : contract_amendments
+    3. Engagements : commitments
+    4. Workflow
+    5. Suivi du contrat
+    6. Connexion avec le budget
+
+8. Demandes de paiement et trésorerie
+    1. Demandes de paiement : payment_requests
+    2. Comptes bancaires : bank_accounts
+    3. Caisses : cash_accounts
+    4. Rapprochement bancaire : bank_reconciliations
+    5. Flux financier global
+    6. Vue globale après 8 étapes
+
+9. Immobilisations et amortissements
+    1. Catégories d'immobilisations : asset_categories
+    2. Immobilisations : fixed_assets
+    3. Amortissements : asset_depreciations
+    4. Relation avec le système
+
+10. Missions, avances et dépenses du personnel
+    1. Employés : employees
+    2. Missions : missions
+    3. Avances de mission : mission_advances
+    4. Dépenses de mission : mission_expenses
+    5. Règlement de mission : mission_settlements
+    6. Workflow complet
+    7. Connexion avec le projet
+
+11. Reporting
+    1. États financiers : financial_statements
+    1.1 États financiers : financial_statement_lines
+    2. Reporting budgétaire
+    3. Reporting bailleur
+    4. Reporting projet
+    5. Exports
+    6. Principe central
+
+12. Audit
+    1. Journal d'audit : audit_logs
+    2. Exemple de traçabilité
+    3. Utilisation de Spatie Activitylog
+    4. Contrôle des opérations
+    5. Sécurité des accès
+    6. Architecture de contrôle

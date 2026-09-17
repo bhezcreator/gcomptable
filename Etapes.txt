@@ -1,0 +1,10 @@
+Étape 1 → Architecture de la base de données complète : OK
+Étape 2 → Diagramme ERD avec toutes les relations : OK
+Étape 3 → Liste définitive des tables + champs + types + index + contraintes : OK
+Étape 4 → Migrations Laravel 13 : OK
+Étape 5 → Models + relations Eloquent : OK
+Étape 6 → rôles/permissions
+Étape 7 → workflow Budget → Achat → Engagement → Facture → Paiement → Comptabilité
+Étape 8 → interfaces Livewire
+Étape 9 → reporting et dashboards
+Étape 10 → tests et sécurité
